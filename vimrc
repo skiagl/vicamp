@@ -14,9 +14,15 @@
 "
 "	pathogen
 "       usage   -> http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
-"               -> https://github.com/tpope/vim-pathogen/blob/master/README.markdown
-"               -> http://github.com/tpope/vim-pathogen
-"               -> http://www.vim.org/scripts/script.php?script_id=2332
+"       git     -> https://github.com/tpope/vim-pathogen/blob/master/README.markdown
+"       git     -> http://github.com/tpope/vim-pathogen
+"       vim.org -> http://www.vim.org/scripts/script.php?script_id=2332
+"
+"   vim-fugitive
+"       git     -> http://github.com/tpope/vim-fugitive.git bundle/fugitive
+"
+"   vim-markdown 
+"       git     -> https://github.com/hallison/vim-markdown bundle/markdown
 "
 "
 "	        tabular

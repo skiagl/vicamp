@@ -1,3 +1,6 @@
+Just a newbie to Vim and Git working through some tutorials.
+Last updated 2012-05-23
+
 Installation:
     Tutorial example by Drew http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
         git clone git://github.com/nelstrom/dotvim.git ~/.vim
