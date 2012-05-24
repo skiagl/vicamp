@@ -2,8 +2,9 @@ Installation:
     Tutorial example by Drew http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
         git clone git://github.com/nelstrom/dotvim.git ~/.vim
 
+    Please see Drew's tutorial above since he knows what he's doing.
     My case
-        git clone git://github.com:skiagl/vicamp.git ~/.vim
+        git clone git://github.com/skiagl/vicamp.git ~/.vim
 
 Create symlinks:
 

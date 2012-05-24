@@ -12,7 +12,12 @@
 " Plugins_Included:
 "   Double tab if not added yet. Single tab if already added.
 "
-"	        pathogen
+"	pathogen
+"       usage   -> http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+"               -> https://github.com/tpope/vim-pathogen/blob/master/README.markdown
+"               -> http://github.com/tpope/vim-pathogen
+"               -> http://www.vim.org/scripts/script.php?script_id=2332
+"
 "
 "	        tabular
 "
@@ -45,6 +50,14 @@
 "       Command-T plug-in provides an extremely fast, intuitive mechanism for opening files:
 "           info -> :help CommandT
 "           screencast and web-help -> http://amix.dk/blog/post/19501
+"
+"
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Priority
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Priority for Pathogen
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General
