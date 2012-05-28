@@ -1,0 +1,24 @@
+Usage
+-----
+
+Setting up same vim on different computers
+Last updated 2012-05-28
+
+Installation:
+    Tutorial example by Drew http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/
+        git clone git://github.com/nelstrom/dotvim.git ~/.vim
+
+    Please see Drew's tutorial above since he knows what he's doing.
+    My case
+        git clone git://github.com/skiagl/vicamp.git ~/.vim
+
+Create symlinks:
+
+    ln -s ~/.vim/vimrc ~/.vimrc
+    ln -s ~/.vim/gvimrc ~/.gvimrc
+
+Switch to the `~/.vim` directory, and fetch submodules:
+
+    cd ~/.vim
+    git submodule init
+    git submodule update

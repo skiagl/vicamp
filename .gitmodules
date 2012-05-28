@@ -28,9 +28,12 @@
 [submodule "bundle/csv-vim"]
 	path = bundle/csv-vim
 	url = https://github.com/chrisbra/csv.vim
-[submodule "bundle/align"]
-	path = bundle/align
-	url = https://github.com/vim-scripts/Align.vim
 [submodule "bundle/vim-align"]
 	path = bundle/vim-align
 	url = https://github.com/jezcope/vim-align
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "bundle/vim-instant-markdown"]
+	path = bundle/vim-instant-markdown
+	url = https://github.com/suan/vim-instant-markdown
